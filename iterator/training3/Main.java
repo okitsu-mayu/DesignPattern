@@ -1,10 +1,10 @@
-package iterator.training1;
+package iterator.training3;
 import iterator.Teacher;
 
 
 public class Main{
 	public static void main(String args[]){
-		Teacher you = new MyTeacher();
+		Teacher you = new VeteranTeacher();
 		you.createStudentList();
 		you.callStudents();
 	}

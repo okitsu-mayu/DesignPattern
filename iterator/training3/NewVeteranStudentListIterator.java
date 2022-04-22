@@ -1,6 +1,10 @@
-package training3.iterator;
+package iterator.training3;
+
+import iterator.Iterator;
+import iterator.Student;
+
 public class NewVeteranStudentListIterator implements Iterator{
-    private NewVeteranStudentLis newVeteranStudentLis;
+    private NewVeteranStudentList newVeteranStudentList;
     private int index;
     public NewVeteranStudentListIterator(NewVeteranStudentList list){
         this.newVeteranStudentList = list;
@@ -14,7 +18,7 @@ public class NewVeteranStudentListIterator implements Iterator{
         }
     }
     public Object next(){
-        Student s =  newVeteranStudentList.getStudentAt(index);
+        Student s =  newVeteranStudentList.getStudentAd(index);
         index++;
         return s;
     }

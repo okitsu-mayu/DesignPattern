@@ -1,4 +1,9 @@
-package training3.iterator;
+package iterator.training3;
+
+import iterator.Iterator;
+import iterator.Student;
+import iterator.Teacher;
+
 public class VeteranTeacher extends Teacher{
 	private NewVeteranStudentList list;
 	public void createStudentList(){

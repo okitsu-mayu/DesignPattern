@@ -1,4 +1,8 @@
-package training2.iterator;
+package iterator.training2;
+
+import iterator.Iterator;
+import iterator.Student;
+
 public class MyStudentListIterator implements Iterator{
     private MyStudentList myStudentList;
     private int index;

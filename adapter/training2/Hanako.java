@@ -1,4 +1,7 @@
-package training2.adapter;
+package adapter.training2;
+
+import adapter.Chairperson;
+import adapter.Taro;
 
 public class Hanako implements Chairperson{
     private Taro taro;

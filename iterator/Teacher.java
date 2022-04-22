@@ -1,5 +1,5 @@
 package iterator;
-abstract class Teacher{
+public abstract class Teacher{
 	protected StudentList studentList;
 
 	public abstract void createStudentList();

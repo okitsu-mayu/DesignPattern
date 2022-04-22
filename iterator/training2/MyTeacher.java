@@ -1,13 +1,14 @@
-package training2.iterator;
+package iterator.training2;
 
+import iterator.Iterator;
 import iterator.Student;
-import iterator.StudentList;
+import iterator.Teacher;
 
 public class MyTeacher extends Teacher{
-    private StudentList MyStudentList;
+    private MyStudentList studentList;
     public MyTeacher(){}
     public void createStudentList(){
-        this.studentList = new StudentList(5);
+        this.studentList = new MyStudentList(5);
 		this.studentList.add(new Student("赤井亮太",1));
 		this.studentList.add(new Student("赤羽里美",2));
 		this.studentList.add(new Student("岡田美央",2));

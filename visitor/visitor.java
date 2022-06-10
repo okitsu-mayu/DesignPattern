@@ -1,5 +1,5 @@
 package visitor;
 
-public class visitor {
+public class Visitor {
 
 }
